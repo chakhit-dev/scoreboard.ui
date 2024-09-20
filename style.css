@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+
+.score-main {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.score-body {
+    position: absolute;
+    bottom: 30px;
+    left: 23px;
+    width: 285px;
+    height: 452px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: black; */
+}
+
+.player-detail {
+    width: 240px;
+    height: 30px;
+    font-size: 13px;
+    border-radius: 4px;
+    background: #101317;
+    color: #eee;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-body {
+    width: 240px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-job {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px 6px 24px 24px;
+}
+
+.main-job.police {
+    background: linear-gradient(180deg, #1F1F1F 35%, #0047FF 258.75%);
+}
+
+.main-job.ambulance {
+    background: linear-gradient(180deg, #1F1F1F 35%, #F00 258.75%);
+}
+
+.main-job.council {
+    background: linear-gradient(180deg, #1F1F1F 35%, #FFC700 258.75%);
+}
+
+.main-job.players {
+    background: linear-gradient(180deg, #1F1F1F 35%, #07C247 258.75%);
+}
+
+.job-img {
+    position: absolute;
+    top: 6px;
+}
+
+.job-img img {
+    width: 25px;
+    height: 25px;
+}
+
+.main-job-data {
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    color: #eee;
+}
+
+.profile-body {
+    position: absolute;
+    top: 30px;
+}
+
+.detail-player {
+    margin-top: 140px;
+}
+
+.profile-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    position: absolute;
+    margin-top: 4px;
+}
+
+.profile-img img {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+}
+
+.profile-bk {
+    width: 160px;
+    height: 160px;
+    background-color: #101317;
+    border-radius: 100%;
+}
+
+.player-id-body {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 6px 6px 24px 24px;
+    background: linear-gradient(180deg, #101317 35%, #2657B8 170%);
+}
+
+.plauer-id-lebel {
+    position: absolute;
+    top: 5px;
+}
+
+.player-id-data {
+    position: absolute;
+    bottom: 3px;
+    color: #eee;
+}
+
+.plauer-id-lebel {
+    color: #eee;
+    font-size: 8px;
+}
+
+.scoreboard-img img {
+    width: 332px;
+    height: 716px;
+}
